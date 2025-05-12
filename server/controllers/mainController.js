@@ -1,3 +1,4 @@
+
 //Get Homepage
 exports.homepage = async (req,res) => {
     const locals = {
@@ -21,13 +22,36 @@ exports.about = async (req,res) => {
 };
 
 //Get Doctors
-exports.Doctors = async (req,res) => {
-    const locals = {
-        title: 'Doctors - TrustMed',
-        description: 'HealthCare WebSite'
+// exports.Doctors = async (req,res) => {
+//     const locals = {
+//         title: 'Doctors - TrustMed',
+//         description: 'HealthCare WebSite'
+//     }
+//     res.render('Doctors',locals);
+// };
+
+exports.Doctors = async (req, res) => {
+    const Doctor = require('../models/Doctor'); 
+    try {
+       
+        const doctors = await Doctor.find();
+
+        const locals = {
+            title: 'TrustMed - Doctors',
+            description: 'HealthCare WebSite'
+        };
+
+      
+        res.render('Doctors', { 
+            doctors,  
+            locals,  
+        });
+    } catch (err) {
+        console.error('Error fetching doctors:', err);
+        res.status(500).send('Error fetching doctors');
     }
-    res.render('Doctors',locals);
 };
+
 
 //Get Review
 exports.Review = async (req,res) => {
