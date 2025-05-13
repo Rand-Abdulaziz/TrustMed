@@ -3,6 +3,20 @@
 #Overview of the Website
 The website aims to connect doctors from various medical specialties across Riyadh, allowing users to easily search for suitable doctors and browse their available appointments. It also enables users to generate reports for their health conditions and provide ratings for doctors based on their experiences, with the ability to add reviews. The site features a user-friendly interface with clear divisions of content, making navigation simple. Additionally, it provides seamless communication with the platform’s administration. Authentication is available on every page, with full integration with a MongoDB database.
 
+#Target Audience:
+The target audience for this website includes:
+•	Patients and users searching for suitable doctors across Riyadh.
+•	University students who need to generate medical reports to be sent to relevant departments.
+•	Users who want to rate doctors and share their experiences with others.
+•	Doctors and hospitals looking to engage more with patients through interactive online services.
+#Goals:
+•	Simplify the process of finding doctors across various specialties in Riyadh.
+•	Enable users to easily book appointments with their preferred doctors.
+•	Provide authentic ratings and reviews from patients to guide users in selecting the right doctor.
+•	Generate customized health reports that can be sent directly to relevant entities.
+•	Enhance the user experience with a clear, intuitive interface and well-organized sections.
+•	Expand the service to other cities in the future, increasing the service's reach.
+
 #Unique Feature: Direct Report Generation and Submission
 Our website offers a unique feature that sets it apart from existing platforms: a clear and intuitive interface that allows users to generate a report about their health condition and send it directly to the desired recipient via email.
 For example, a university student can generate a health report through the platform and, if needed, send it directly to the relevant department or health service responsible for student health cases. This feature provides an efficient way to share personal health reports, making it easier for users to communicate with institutions or healthcare providers without the need for intermediaries.
