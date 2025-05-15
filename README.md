@@ -3,14 +3,14 @@
 #Overview of the Website<br>
 The website aims to connect doctors from various medical specialties across Riyadh, allowing users to easily search for suitable doctors and browse their available appointments. It also enables users to generate reports for their health conditions and provide ratings for doctors based on their experiences, with the ability to add reviews. The site features a user-friendly interface with clear divisions of content, making navigation simple. Additionally, it provides seamless communication with the platform’s administration. Authentication is available on every page, with full integration with a MongoDB database.<br>
 
-#Target Audience:<br>
+**#Target Audience:**<br>
 The target audience for this website includes:
 •	Patients and users searching for suitable doctors across Riyadh.<br>
 •	University students who need to generate medical reports to be sent to relevant departments.<br>
 •	Users who want to rate doctors and share their experiences with others.<br>
 •	Doctors and hospitals looking to engage more with patients through interactive online services.<br>
 
-#Goals:<br>
+**#Goals:**<br>
 •	Simplify the process of finding doctors across various specialties in Riyadh.<br>
 •	Enable users to easily book appointments with their preferred doctors.<br>
 •	Provide authentic ratings and reviews from patients to guide users in selecting the right doctor.<br>
@@ -18,13 +18,13 @@ The target audience for this website includes:
 •	Enhance the user experience with a clear, intuitive interface and well-organized sections.<br>
 •	Expand the service to other cities in the future, increasing the service's reach.<br>
 
-#Unique Feature: Direct Report Generation and Submission<br>
+**#Unique Feature:** Direct Report Generation and Submission<br>
 Our website offers a unique feature that sets it apart from existing platforms: a clear and intuitive interface that allows users to generate a report about their health condition and send it directly to the desired recipient via email.
 For example, a university student can generate a health report through the platform and, if needed, send it directly to the relevant department or health service responsible for student health cases. This feature provides an efficient way to share personal health reports, making it easier for users to communicate with institutions or healthcare providers without the need for intermediaries.<br>
 
-#Flow chart<br>
+**#Flow chart**<br>
 
-#Project Setup<br>
+**#Project Setup**<br>
 1-	Setting up the Basic Tools:<br>
 •  Install Visual Studio Code (VSC).<br>
 •  Install Node.js.<br>
@@ -62,7 +62,7 @@ For example, a university student can generate a health report through the platf
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.<br>
 
 =======
-#Technologies Used
+**#Technologies Used**
 •	Node.js: JavaScript runtime used to build the backend of the application.
 •	Express.js: Web framework for Node.js that simplifies routing and handling HTTP requests.
 •	MongoDB: NoSQL database used to store user and application data.
@@ -101,7 +101,7 @@ This is how the homepage looks,
 
 
 
-#Future Work<br>
+**#Future Work**<br>
 •	Location-based Services: Add functionality to directly find doctors via a map, allowing users to easily see nearby doctors and hospitals.<br>
 •	Doctor Filtering: Enable users to filter doctors based on their ratings from 1 to 5 to find the most highly rated professionals.<br>
 •	Expansion to Other Cities: Expand the platform to include other cities beyond Riyadh, broadening the accessibility of the service<br>
@@ -113,7 +113,7 @@ This is how the homepage looks,
 
 
 
-#Resources<br>
+**#Resources**<br>
 •	MongoDB - The database used to store user and doctor data.<br>
 •	Express.js - The framework used to build the backend and handle HTTP requests.<br>
 •	EJS - The templating engine used to embed JavaScript within HTML pages to create dynamic pages.<br>
