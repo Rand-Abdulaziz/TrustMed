@@ -60,7 +60,15 @@ For example, a university student can generate a health report through the platf
 •	JavaScript: Programming language used to add interactivity and dynamic features to the website.
 •	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.
-Some screenshots
+
+#Some screenshots
+
+![Home Page](../img/home_page.png)
+
+### Screenshot 2: Doctor Profile
+![Doctor Profile](../img/doctor_page(Gust).png)
+![Doctor Profile for users](../img/doctor_page(Users).png)
+
 
 #Future Work
 •	Location-based Services: Add functionality to directly find doctors via a map, allowing users to easily see nearby doctors and hospitals.
@@ -87,13 +95,13 @@ Some screenshots
 
 #Team Members
 
-Rand Abdulaziz Alkhuzaiem 442013948
-Nada  Abdulaziz 444008569
-Dana Alshehri 442014081
+Rand Abdulaziz AL-khuzaiem 442013948 -
+Nada  AL-turki 444008569 -
+Dana AL-shehri 442014081 
 --
 •	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.
 •	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.
-•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new ratings, and linking all ratings to the database. They also work with Node.js and Express.js.
+•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.
 
 
 
