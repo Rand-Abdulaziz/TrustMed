@@ -63,7 +63,7 @@ For example, a university student can generate a health report through the platf
 
 #Some screenshots
 
-![Home Page](../img/home_page.png)
+![Home Page](/img/home_page.png)
 
 ### Screenshot 2: Doctor Profile
 ![Doctor Profile](../img/doctor_page(Gust).png)
