@@ -3,13 +3,15 @@
     --bs-primary-rgb: #000000;
 }
 body {
-    padding-top: 110px; 
+    padding-top: 70px; 
     font-family: 'Poppins', sans-serif;
     background-color: var( --background-color);
     color:var(--bs-primary-rgb);
     font-weight: 300;
     font-size: 1.2rem;
     background-image: url(../img/noise-bg.png);
+     width: 100%;
+    height: auto;
   }
 
   input[type="search"] {
@@ -121,7 +123,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 85%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -168,13 +171,15 @@ body {
 
 /* About Start */
 .about-section {
-background-color: #f9f9f9;
+  background-color: #f9f9f9;
+  padding: 4rem 0; 
 }
+
 .AboutHeading {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   padding: 1rem;
-  padding-top: 8rem;
+  padding-top: 5rem;
   color: #000000;
   letter-spacing: .1rem;
 }
@@ -183,58 +188,67 @@ background-color: #f9f9f9;
   text-align: center;
   color: #979797;
   animation: to-top 1s ease forwards 1.7s;
+  font-size: 1.8rem;
+  margin-top: 1rem;
 }
 
-.AboutBox-container { 
+.AboutBox-container {
   padding: 4rem 0;
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
 .AboutBox-container .AboutBox {
-  width: 75%;
-  margin: 4rem auto;
+  width: 100%; 
+  margin: 3rem 0; 
   border-radius: .5rem;
-  box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+  box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
   display: flex;
   align-items: center;
   overflow: hidden;
-  background-color: #f9f9f9
+  background-color: #fff; 
+  padding: 2rem;
 }
 
 .AboutBox-container .AboutBox .AboutImages {
-  height: 30rem;
-  width: 50%;
+  flex: 1; 
+  height: auto;
 }
 
-.AboutBox-container .AboutBox .AboutImages  img {
-  height: 100%;
+.AboutBox-container .AboutBox .AboutImages img {
   width: 100%;
+  height: auto;
+  object-fit: cover; 
+}
+
+.AboutBox-container .AboutBox .AboutContent {
+  flex: 1; 
+  padding: 2rem;
+}
+
+.AboutBox-container .AboutBox .AboutContent h3 {
+  font-size: 2.5rem; 
+  color: black;
+  display: flex;
+  align-items: start;
+}
+
+.AboutBox-container .AboutBox .AboutContent p {
+  font-size: 1.2rem; 
+  color: #979797;
+  padding: 1rem 0;
+  text-align: start;
+}
+
+.AboutBox-container .AboutBox:nth-child(even) {
+  flex-flow: row-reverse;
 }
 
 .About-button {
   font-weight: bold;
-  padding: 8px 20px; 
-  border-radius: 25px; 
-}
-/* About heading & text */
-.AboutBox-container .AboutBox .AboutContent {
-  height: 100%;
-  width: 50%;
-  padding: 2rem;
-}
-.AboutBox-container .AboutBox .AboutContent h3 {
-  font-size: 3rem;
-  color: black ;
- display:flex;
- align-items: start;
-}
-.AboutBox-container .AboutBox .AboutContent p {
-  font-size: 1.5rem;
-  color: #979797;
-padding: 1rem 0;
-text-align: start;
-}
-.AboutBox-container .AboutBox:nth-child(even) {
-  flex-flow: row-reverse;
+  padding: 10px 30px; 
+  border-radius: 25px;
+  font-size: 1.2rem; 
 }
 /* About End */
 
@@ -246,7 +260,7 @@ text-align: start;
   flex-direction: row; 
 }
 .DoctorsCards .DoctorsBox-container .DoctorsBox{
-  width: 30rem;
+  width: 20%;
   margin: 2rem 1rem;
   overflow: hidden;
   border-radius: .5rem;
@@ -261,7 +275,7 @@ text-align: start;
  padding: 1rem 1.3rem;
  }
  .DoctorsCards .DoctorsBox-container .DoctorsBox .DoctorsContent h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   color: black ;
  }
@@ -278,7 +292,7 @@ text-align: start;
   text-align: center;
  }
  .DoctorsCards .DoctorsBox-container .DoctorsBox .DoctorsContent .Doctors-icons a {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color:#00A9E0 ;
   text-align: center;
   margin: 1rem;
@@ -295,7 +309,7 @@ text-align: start;
 
 }
 .Review .ReviewBox-containe .ReviewBox{
-width: 35rem;
+width: 30%;
 text-align: center;
 padding: 0 2rem;
 margin: 4rem 1.5rem;
@@ -314,7 +328,7 @@ box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
   width: 9rem;
   border-radius: 50%;
   object-fit: cover;
-  margin: .8rem 1rem;
+  margin: .8rem 1.2rem;
 }
 
 .Review .ReviewBox-containe .ReviewBox i {
@@ -325,20 +339,24 @@ box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
 }
 .Review .ReviewBox-containe .ReviewBox p {
   color: black;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   padding: 2rem 0;
+  word-wrap: break-word; 
 }
 .Review .ReviewBox-containe .ReviewBox .info h3 {
   color: #00A9E0;
-  font-size: 2rem;
+  font-size: 1rem;
+  word-wrap: break-word; 
 }
 .Review .ReviewBox-containe .ReviewBox .info span {
   color: black;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  word-wrap: break-word; 
 }
 /* review end */
 
 /* contact us start */
+
 .contact {
   background-color: #f9f9f9;
 }
@@ -349,15 +367,15 @@ box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
   padding: 5rem 0;
 }
 .contact .AboutBox-container .images img {
-width: 50vw;
-height: 70vh;
+width: 70%;
+height: 90%;
 }
 .contact .AboutBox-container .form-container {
   width: 50%;
-  padding-right: 6rem;
+  padding-right: 10rem;
 }
 .contact .AboutBox-container .form-container input,textarea {
-height: 4rem;
+height: 3rem;
 width: 100%;
 background: #eee;
 border: none;
@@ -384,7 +402,7 @@ font-size: 1.7rem;
 /* search start */
 .appointment-search-container {
   max-width: 1000px;
-  width: 90%;
+  width: 40%;
   background-color: #ffffff;
   padding: 20px;
   margin: auto;
