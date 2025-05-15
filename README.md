@@ -61,8 +61,32 @@ For example, a university student can generate a health report through the platf
 •	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.<br>
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.<br>
 
+<<<<<<< HEAD
 ### Screenshot 1: Home Page
 ![Home Page](./public/img/home_page.png)
+=======
+#Technologies Used
+•	Node.js: JavaScript runtime used to build the backend of the application.
+•	Express.js: Web framework for Node.js that simplifies routing and handling HTTP requests.
+•	MongoDB: NoSQL database used to store user and application data.
+•	Mongoose: ODM (Object Data Modeling) library for MongoDB, used to manage data models and interactions with MongoDB.
+•	Git: Version control system used for tracking code changes and collaboration among team members.
+•	GitHub: Platform for hosting the project repository and facilitating team collaboration.
+•	Visual Studio Code (VSC): Integrated development environment (IDE) used for writing and editing code.
+•	MongoDB Shell: Command-line interface for interacting with MongoDB databases.
+•	HTML: Markup language used to structure content on web pages.
+•	CSS: Styling language used to design and lay out the website.
+•	JavaScript: Programming language used to add interactivity and dynamic features to the website.
+•	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.
+•	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.
+
+### Screenshot 1: Home Page
+This is how the homepage looks, where users can search for doctors and view their profiles.
+![Home Page](public/img/home_page.png)
+
+
+
+>>>>>>> 901aa613ceb1ec514f7bb183ef172d7783fd66af
 
 ### Screenshot 2: Reviews Page
 ![Home Page](./public/img/reviews_page.png)
@@ -94,6 +118,7 @@ For example, a university student can generate a health report through the platf
 •	Notifications & Reminders: Implement notifications for upcoming appointments, feedback reminders, or new doctor availability.<br>
 
 
+<<<<<<< HEAD
 
 #Resources<br>
 •	MongoDB - The database used to store user and doctor data.<br>
@@ -116,6 +141,15 @@ Dana Alshehri 442014081<br>
 •	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.<br>
 •	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.<br>
 •	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new ratings, and linking all ratings to the database. They also work with Node.js and Express.js.<br>
+=======
+Rand Abdulaziz AL-khuzaiem 442013948 -
+Nada  AL-turki 444008569 -
+Dana AL-shehri 442014081 
+--
+•	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.
+•	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.
+•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.
+>>>>>>> 901aa613ceb1ec514f7bb183ef172d7783fd66af
 
 
 
