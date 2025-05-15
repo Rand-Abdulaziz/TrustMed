@@ -111,7 +111,7 @@ This is how the homepage looks,
 •	Notifications & Reminders: Implement notifications for upcoming appointments, feedback reminders, or new doctor availability.<br>
 
 
-<<<<<<< HEAD
+
 
 #Resources<br>
 •	MongoDB - The database used to store user and doctor data.<br>
@@ -131,18 +131,11 @@ Rand Abdulaziz Alkhuzaiem 442013948<br>
 Nada  Abdulaziz 444008569<br>
 Dana Alshehri 442014081<br>
 --
-•	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.<br>
-•	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.<br>
-•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new ratings, and linking all ratings to the database. They also work with Node.js and Express.js.<br>
-=======
-Rand Abdulaziz AL-khuzaiem 442013948 -
-Nada  AL-turki 444008569 -
-Dana AL-shehri 442014081 
---
+
 •	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.
 •	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.
 •	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.
->>>>>>> 901aa613ceb1ec514f7bb183ef172d7783fd66af
+
 
 
 
