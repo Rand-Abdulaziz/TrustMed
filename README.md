@@ -46,7 +46,8 @@ For example, a university student can generate a health report through the platf
 6-	Ensuring the Project Works via HTTP:<br>
 •	Ensure that the server is running at http://localhost:5000 (or the specified port in the project)<br>
 •	Verify that MongoDB is connected and working by checking that the server is running on the specified port in Node.js.<br>
-#Technologies Used<br>
+
+**#Technologies Used**<br>
 •	Node.js: JavaScript runtime used to build the backend of the application.<br>
 •	Express.js: Web framework for Node.js that simplifies routing and handling HTTP requests.<br>
 •	MongoDB: NoSQL database used to store user and application data.<br>
@@ -61,22 +62,7 @@ For example, a university student can generate a health report through the platf
 •	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.<br>
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.<br>
 
-=======
-**#Technologies Used**
-•	Node.js: JavaScript runtime used to build the backend of the application.
-•	Express.js: Web framework for Node.js that simplifies routing and handling HTTP requests.
-•	MongoDB: NoSQL database used to store user and application data.
-•	Mongoose: ODM (Object Data Modeling) library for MongoDB, used to manage data models and interactions with MongoDB.
-•	Git: Version control system used for tracking code changes and collaboration among team members.
-•	GitHub: Platform for hosting the project repository and facilitating team collaboration.
-•	Visual Studio Code (VSC): Integrated development environment (IDE) used for writing and editing code.
-•	MongoDB Shell: Command-line interface for interacting with MongoDB databases.
-•	HTML: Markup language used to structure content on web pages.
-•	CSS: Styling language used to design and lay out the website.
-•	JavaScript: Programming language used to add interactivity and dynamic features to the website.
-•	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.
-•	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.
-
+**#Some Screenshot**<br>
 ### Screenshot 1: Home Page
 This is how the homepage looks,
 ![Home Page](public/img/home_page.png)
