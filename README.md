@@ -1,5 +1,5 @@
 # WepProject #CS346
---
+
 #Overview of the Website<br>
 The website aims to connect doctors from various medical specialties across Riyadh, allowing users to easily search for suitable doctors and browse their available appointments. It also enables users to generate reports for their health conditions and provide ratings for doctors based on their experiences, with the ability to add reviews. The site features a user-friendly interface with clear divisions of content, making navigation simple. Additionally, it provides seamless communication with the platform’s administration. Authentication is available on every page, with full integration with a MongoDB database.<br>
 
@@ -81,7 +81,7 @@ For example, a university student can generate a health report through the platf
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.
 
 ### Screenshot 1: Home Page
-This is how the homepage looks, where users can search for doctors and view their profiles.
+This is how the homepage looks,
 ![Home Page](public/img/home_page.png)
 
 
