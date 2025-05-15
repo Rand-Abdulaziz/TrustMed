@@ -61,9 +61,6 @@ For example, a university student can generate a health report through the platf
 •	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.<br>
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.<br>
 
-<<<<<<< HEAD
-### Screenshot 1: Home Page
-![Home Page](./public/img/home_page.png)
 =======
 #Technologies Used
 •	Node.js: JavaScript runtime used to build the backend of the application.
@@ -83,10 +80,6 @@ For example, a university student can generate a health report through the platf
 ### Screenshot 1: Home Page
 This is how the homepage looks,
 ![Home Page](public/img/home_page.png)
-
-
-
->>>>>>> 901aa613ceb1ec514f7bb183ef172d7783fd66af
 
 ### Screenshot 2: Reviews Page
 ![Home Page](./public/img/reviews_page.png)
