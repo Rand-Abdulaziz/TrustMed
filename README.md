@@ -125,7 +125,9 @@ This is how the homepage looks,
 •	Building the Frontend (YouTube Video) - A video tutorial used to help build the frontend of the website.<br>
 •	  Connecting to the Database (YouTube Playlist) - A YouTube playlist used for connecting the project to the MongoDB database.<br>
 
-#Team Members<br>
+
+
+**#Team Members**<br>
 
 Rand Abdulaziz Alkhuzaiem 442013948<br>
 Nada  Abdulaziz 444008569<br>
