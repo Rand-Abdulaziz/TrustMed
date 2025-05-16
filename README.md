@@ -71,19 +71,22 @@ For example, a university student can generate a health report through the platf
 ### Screenshot 3: Reviews Page
 ![Home Page](./public/img/reviews_page.png)
 
-### Screenshot 4: Doctors Page For Gusts
+### Screenshot 4: Add Review
+![Home Page](./public/img/addReview.png)
+
+### Screenshot 5: Doctors Page For Gusts
 ![Home Page](./public/img/doctors_page(Gust).png)
 
-### Screenshot 5: Doctors Page For Users
+### Screenshot 6: Doctors Page For Users
 ![Home Page](./public/img/doctors_page(Users).png)
 
-### Screenshot 6: Contact Page 
+### Screenshot 7: Contact Page 
 ![Home Page](./public/img/Contact_page.png)
 
-### Screenshot 7: Athuntication
+### Screenshot 8: Athuntication
 ![Home Page](./public/img/athuntication_page.png)
 
-### Screenshot 8: Database (Doctros Collection)
+### Screenshot 9: Database (Doctros Collection)
 ![Home Page](./public/img/database.png)
 
 
