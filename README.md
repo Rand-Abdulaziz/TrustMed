@@ -122,7 +122,7 @@ Dana AL-shehri 442014081<br>
 
 •	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.<br>
 •	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.<br>
-•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.<br>
+•	Dana: Responsible for adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.<br>
 
 
 
