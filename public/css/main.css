@@ -486,3 +486,60 @@ outline: none;
 }
 /* Dashboard End */
 
+  /* End Add review */
+ #reviewForm {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #name {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+ #message {
+  width: 90%;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  resize: vertical;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+  #date {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  #reviewForm button[type="submit"],
+  #showFormBtn {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #reviewForm button[type="submit"]:hover,
+  #showFormBtn:hover {
+    background-color: #009acd;
+  }
+  /* End Add review */
