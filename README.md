@@ -23,6 +23,8 @@ For example, a university student can generate a health report through the platf
 
 **#Flow chart**<br>
 
+![](./public/img/FlowChart.jpg)
+
 **#Project Setup**<br>
 1-	Setting up the Basic Tools:<br>
 •  Install Visual Studio Code (VSC).<br>
