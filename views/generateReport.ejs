@@ -1,0 +1,22 @@
+<div class="container py-5">
+    <h1 class="mb-4">Generate Report</h1>
+
+    <form action="/dashboard/generate-report" method="POST" class="card p-4 shadow-sm">
+        <div class="mb-3">
+            <label for="receiverEmail" class="form-label">Receiver Email</label>
+            <input type="email" name="receiverEmail" id="receiverEmail" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" id="message" class="form-control" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success dashboard-button">Send Report</button>
+    </form>
+
+    
+
+<a href="/dashboard" class="btn btn-primary dashboard-button mt-4">Back to Dashboard</a>
+</div>
+

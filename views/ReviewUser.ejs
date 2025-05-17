@@ -1,123 +1,59 @@
-<link rel="stylesheet" href="main.css">
 <section class="Review">
-  <h1 class="AboutHeading">Our patient review</h1>
-  <h3 class="AboutTitle">What patient says about us</h3>
-
-  <button id="showFormBtn" style="margin-bottom: 15px;">Add a Review</button>
-
-  <form id="reviewForm" style="display:none; margin-bottom: 20px;">
-    <input type="text" id="name" placeholder="Name" required>
-    <textarea id="message" placeholder="Review"  required ></textarea>
-    <input type="date" id="date" required>
-    <button type="submit">Submit</button>
-  </form>
-
-  <div class="ReviewBox-containe" id="reviewContainer">
-
-    <div class="ReviewBox">
-      <i class="fas fa-quote-left"></i>
-      <p>Excellent service! Highly recommend.</p>
-      <div class="Review-images">
-        <img src="/img/review3.jpg" alt="doctor service">
-        <div class="info">
-          <h3>Sara</h3>
-          <span>date: 2025-04-12</span>
+    <h1 class="AboutHeading">Our patient review</h1>
+    <h3 class="AboutTitle">What patient says about us</h3>
+    
+    <div class="ReviewBox-containe">
+        <!--Start here-->
+        <div class="ReviewBox">
+            <i class="fas fa-quote-left"></i>
+            <p>Excellent service! Highly recommend.
+            </p>
+    
+            <div class="Review-images">
+                <img src="/img/review3.jpg" alt="doctor service">
+                
+                <div class="info">
+                    <h3>Sara</h3>
+                    <span>date: 2025-04-12</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-    <div class="ReviewBox">
-      <i class="fas fa-quote-left"></i>
-      <p>Very professional and helpful.</p>
-      <div class="Review-images">
-        <img src="/img/review2.jpg" alt="doctor service">
-        <div class="info">
-          <h3>Ahmed</h3>
-          <span>date :  2025-05-12</span>
+        <!--End here-->
+    
+         <!--Start here-->
+         <div class="ReviewBox">
+            <i class="fas fa-quote-left"></i>
+            <p>Very professional and helpful.
+            </p>
+    
+            <div class="Review-images">
+                <img src="/img/review2.jpg" alt="doctor service">
+                
+                <div class="info">
+                    <h3>Ahmed</h3>
+                    <span>date :  2025-05-12</span>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-
-    <div class="ReviewBox">
-      <i class="fas fa-quote-left"></i>
-      <p>Great experience. Will definitely come back.</p>
-      <div class="Review-images">
-        <img src="/img/review1.jpg" alt="doctor service">
-        <div class="info">
-          <h3>Fatimah</h3>
-          <span>date :  2025-10-12</span>
+        <!--End here-->
+    
+         <!--Start here-->
+         <div class="ReviewBox">
+            <i class="fas fa-quote-left"></i>
+            <p>Great experience. Will definitely come back.
+            </p>
+    
+            <div class="Review-images">
+                <img src="/img/review1.jpg" alt="doctor service">
+                
+                <div class="info">
+                    <h3>Fatimah</h3>
+                    <span>date :  2025-10-12</span>
+                </div>
+            </div>
         </div>
-      </div>
+        <!--End here-->
+        
+    
     </div>
-  </div>
-</section>
-
-
-
-<!-- JavaScript -->
-<script>
-  document.getElementById("showFormBtn").addEventListener("click", function () {
-    const form = document.getElementById("reviewForm");
-    form.style.display = form.style.display === "none" ? "block" : "none";
-  });
-
-  window.addEventListener("DOMContentLoaded", function () {
-    const savedReviews = JSON.parse(localStorage.getItem("reviews")) || [];
-    savedReviews.forEach(review => appendReviewToDOM(review));
-  });
-
-  document.getElementById("reviewForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const name = document.getElementById("name").value;
-    const message = document.getElementById("message").value;
-    const rawDate = document.getElementById("date").value;
-    const dob = new Date(rawDate);
-
-    if (isNaN(dob.getTime())) {
-      alert("Invalid date");
-      return;
-    }
-
-    const day = String(dob.getDate()).padStart(2, '0');
-    const month = String(dob.getMonth() + 1).padStart(2, '0');
-    const year = dob.getFullYear();
-    const formattedDate = `${year}-${month}-${day}`;
-
-    const newReview = {
-      name,
-      message,
-      date: formattedDate
-    };
-
-    appendReviewToDOM(newReview);
-
-    const savedReviews = JSON.parse(localStorage.getItem("reviews")) || [];
-    savedReviews.push(newReview);
-    localStorage.setItem("reviews", JSON.stringify(savedReviews));
-
-    document.getElementById("reviewForm").reset();
-    document.getElementById("reviewForm").style.display = "none";
-  });
-
-  function appendReviewToDOM({ name, message, date }) {const reviewBox = document.createElement("div");
-    reviewBox.classList.add("ReviewBox");
-    reviewBox.innerHTML = `
-      <i class="fas fa-quote-left"></i>
-      <p>${message}</p>
-      <div class="Review-images">
-          <img src="/img/review1.jpg" alt="doctor service">
-          <div class="info">
-              <h3>${name}</h3>
-              <span>date :  ${date}</span>
-          </div>
-      </div>
-    `;
-    document.getElementById("reviewContainer").appendChild(reviewBox);
-  }
-
- 
-//   localStorage.removeItem("reviews");
-//   console.log("Review Deleted");
-
-</script>
+    </section>

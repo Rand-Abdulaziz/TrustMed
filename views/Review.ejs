@@ -3,33 +3,6 @@
     <h3 class="AboutTitle">What patient says about us</h3>
     
     <div class="ReviewBox-containe">
-
-        <script>
-  window.addEventListener("DOMContentLoaded", function () {
-    const savedReviews = JSON.parse(localStorage.getItem("reviews")) || [];
-
-    const container = document.querySelector(".ReviewBox-containe");
-
-    savedReviews.forEach(({ name, message, date }) => {
-      const reviewBox = document.createElement("div");
-      reviewBox.classList.add("ReviewBox");
-      reviewBox.innerHTML = `
-        <i class="fas fa-quote-left"></i>
-        <p>${message}</p>
-        <div class="Review-images">
-            <img src="/img/review1.jpg" alt="doctor service">
-            <div class="info">
-                <h3>${name}</h3>
-                <span>date :  ${date}</span>
-            </div>
-        </div>
-      `;
-      container.appendChild(reviewBox);
-    });
-  });
-</script>
-
-
         <!--Start here-->
         <div class="ReviewBox">
             <i class="fas fa-quote-left"></i>
@@ -84,5 +57,3 @@
     
     </div>
     </section>
-
-  

@@ -1,0 +1,24 @@
+
+
+<div class="container py-5">
+    <h1 class="mb-4">My Reports</h1>
+
+    <% if (reports.length === 0) { %>
+        <div class="alert alert-info">No reports received yet.</div>
+    <% } else { %>
+        <div class="list-group">
+            <% reports.forEach(function(report) { %>
+                <div class="list-group-item">
+                    <h5>From: <%= report.senderEmail %></h5>
+                    <p><%= report.message %></p>
+                </div>
+            <% }); %>
+        </div>
+    <% } %>
+
+    
+    <a href="/dashboard" class="btn btn-primary dashboard-button mt-4">Back to Dashboard</a>
+
+</div>
+
+
