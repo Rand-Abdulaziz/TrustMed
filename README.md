@@ -1,28 +1,28 @@
-# WepProject #CS346
+
 
 #Overview of the Website<br>
-The website aims to connect doctors from various medical specialties across Riyadh, allowing users to easily search for suitable doctors and browse their available appointments. It also enables users to generate reports for their health conditions and provide ratings for doctors based on their experiences, with the ability to add reviews. The site features a user-friendly interface with clear divisions of content, making navigation simple. Additionally, it provides seamless communication with the platform’s administration. Authentication is available on every page, with full integration with a MongoDB database.<br>
+The website aims to connect doctors from various medical specialties across Riyadh, allowing users to easily search for suitable doctors. It also enables users to generate reports for their health conditions and provide ratings for doctors based on their experiences, with the ability to add reviews. The site features a user-friendly interface with clear divisions of content, making navigation simple. Additionally, it provides seamless communication with the platform’s administration. Authentication is available on every page, with integration with a MongoDB database.<br>
 
 **#Target Audience:**<br>
-The target audience for this website includes:
-•	Patients and users searching for suitable doctors across Riyadh.<br>
-•	University students who need to generate medical reports to be sent to relevant departments.<br>
-•	Users who want to rate doctors and share their experiences with others.<br>
-•	Doctors and hospitals looking to engage more with patients through interactive online services.<br>
+The target audience for this website includes:<br>
+• Patients and users searching for suitable doctors across Riyadh.<br>
+• University students who need to generate medical reports to be sent to relevant departments.<br>
+• Users who want to rate doctors and share their experiences with others.<br>
+• Doctors and hospitals looking to engage more with patients through interactive online services.<br>
 
 **#Goals:**<br>
-•	Simplify the process of finding doctors across various specialties in Riyadh.<br>
-•	Enable users to easily book appointments with their preferred doctors.<br>
-•	Provide authentic ratings and reviews from patients to guide users in selecting the right doctor.<br>
-•	Generate customized health reports that can be sent directly to relevant entities.<br>
-•	Enhance the user experience with a clear, intuitive interface and well-organized sections.<br>
-•	Expand the service to other cities in the future, increasing the service's reach.<br>
+• Simplify the process of finding doctors across various specialties in Riyadh.<br>
+• Provide authentic ratings and reviews from patients to help users choose the right doctor.<br>
+• Generate customized health reports that can be sent directly to relevant entities.<br>
+• Enhance the user experience with a clear, easy-to-use interface and well-organized sections.<br>
+• Expand the service in the future to include other cities, increasing its reach.<br>
 
 **#Unique Feature:** Direct Report Generation and Submission<br>
 Our website offers a unique feature that sets it apart from existing platforms: a clear and intuitive interface that allows users to generate a report about their health condition and send it directly to the desired recipient via email.
-For example, a university student can generate a health report through the platform and, if needed, send it directly to the relevant department or health service responsible for student health cases. This feature provides an efficient way to share personal health reports, making it easier for users to communicate with institutions or healthcare providers without the need for intermediaries.<br>
+For example, a university student can generate a health report through the platform and, if needed, send it directly to the relevant department or health service responsible for student health cases. This feature provides an efficient way to share personal health reports, making it easier for users to communicate with institutions or healthcare providers without the need for intermediaries.
 
 **#Flow chart**<br>
+![](public/img/FlowChart.jpg)
 
 **#Project Setup**<br>
 1-	Setting up the Basic Tools:<br>
@@ -65,26 +65,19 @@ For example, a university student can generate a health report through the platf
 **#Some Screenshot**<br>
 ### Screenshot 1: Home Page
 This is how the homepage looks,
-![Home Page](public/img/home_page.png)
+![Home Page](public/img/home_page.ppng)
 
 ### Screenshot 2: Reviews Page
-![Home Page](./public/img/reviews_page.png)
+![Home Page](./public/img/reviews_ppage.png)
 
 ### Screenshot 3: Doctors Page For Gusts
-![Home Page](./public/img/doctors_page(Gust).png)
+![Home Page](./public/img/doctors_page(Gust).ppng)
 
 ### Screenshot 4: Doctors Page For Users
 ![Home Page](./public/img/doctors_page(Users).png)
 
 ### Screenshot 5: Contact Page 
-![Home Page](./public/img/Contact_page.png)
-
-### Screenshot 6: Athuntication
-![Home Page](./public/img/athuntication_page.png)
-
-### Screenshot 7: Database (Doctros Collection)
-![Home Page](./public/img/database.png)
-
+![Home Page](./public/img/Contact_page.ppng)
 
 
 **#Future Work**<br>
@@ -95,7 +88,6 @@ This is how the homepage looks,
 •	Doctor's Interface Development: Enhance the doctor’s interface to include features like managing appointments, viewing patient feedback, and updating availability.<br>
 •	Admin Interface Development: Develop the admin interface to manage users, doctors, appointments, and reviews, as well as track the overall health of the platform.<br>
 •	Notifications & Reminders: Implement notifications for upcoming appointments, feedback reminders, or new doctor availability.<br>
-
 
 
 
@@ -115,13 +107,15 @@ This is how the homepage looks,
 
 **#Team Members**<br>
 --
-Rand Abdulaziz AL-khuzaiem 442013948<br>
-Nada  AL-turki 444008569<br>
-Dana AL-shehri 442014081<br>
+Rand Abdulaziz AL-khuzaiem <br>
+Nada  AL-turki <br>
+Dana AL-shehri <br>
 
-•	Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js, Express.js. Also responsible for writing the README file.<br>
-•	Nada: Responsible for building the Get Report page, enabling users to send reports to specific entities. They are also responsible for linking report data to the database and working with Node.js and Express.js.<br>
-•	Dana: Responsible for linking doctor names to their details and integrating them with the database, adding the ability to insert new reviews, and linking all reviews to the database. They also work with Node.js and Express.js.<br>
+Rand: Responsible for building the general pages using CSS and JavaScript, creating the doctor page content, implementing authentication, integrating with the database, inserting doctor data into the database, and working with Node.js and Express.js. She is also responsible for writing the README file and wiki.<br>
+
+Nada: Built the Get Report page, enabling users to send reports to specific entities. She worked with Node.js and Express.js and contributed to preparing the presentation.<br>
+
+Dana: Responsible for adding the functionality to insert new reviews. She works with Node.js and Express.js and contributed to the flowchart.<br>
 
 
 
