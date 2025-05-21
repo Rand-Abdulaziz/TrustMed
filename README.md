@@ -100,8 +100,6 @@ This is how the homepage looks,
 •	GitHub - The platform used to host the repository and facilitate team collaboration.<br>
 •	Visual Studio Code - The integrated development environment (IDE) used to write and edit code.<br>
 •	Node.js - JavaScript runtime used to build the backend of the application.<br>
-•	Building the Frontend (YouTube Video) - A video tutorial used to help build the frontend of the website.<br>
-•	  Connecting to the Database (YouTube Playlist) - A YouTube playlist used for connecting the project to the MongoDB database.<br>
 
 
 
