@@ -62,23 +62,6 @@ For example, a university student can generate a health report through the platf
 •	EJS (Embedded JavaScript): Templating engine used to embed JavaScript into HTML pages, allowing for dynamic page rendering with data from the server.<br>
 •	Google Authentication: Implemented OAuth 2.0 from Google to provide login and authentication for users using their Google accounts, simplifying the authentication process and increasing security.<br>
 
-**#Some Screenshot**<br>
-### Screenshot 1: Home Page
-This is how the homepage looks,
-![Home Page](public/img/home_page.ppng)
-
-### Screenshot 2: Reviews Page
-![Home Page](./public/img/reviews_ppage.png)
-
-### Screenshot 3: Doctors Page For Gusts
-![Home Page](./public/img/doctors_page(Gust).ppng)
-
-### Screenshot 4: Doctors Page For Users
-![Home Page](./public/img/doctors_page(Users).png)
-
-### Screenshot 5: Contact Page 
-![Home Page](./public/img/Contact_page.ppng)
-
 
 **#Future Work**<br>
 •	Location-based Services: Add functionality to directly find doctors via a map, allowing users to easily see nearby doctors and hospitals.<br>
